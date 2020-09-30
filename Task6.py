@@ -14,7 +14,7 @@ def maxNumber(num1, num2, num3):
                 for z in numlist:
                     print(numlist[-1])
             
-maxNumber(100, 60, 45)
+maxNumber(3, 12, 8)
 
 
 

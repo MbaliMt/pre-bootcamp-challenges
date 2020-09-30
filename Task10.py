@@ -1,13 +1,10 @@
 
+vowels = ['a','e','i','o','u']
 
-myString ="My name is Mbali".lower()
+def myString(word):
+    for x in vowels:
+        for n in word:
+            if x == n:
+                print(x, end=' ')
 
-alphabetList = ['a','e','i','o','u']
-
-# for x in alphabetList:
-#     counter = 0
-#     for n in myString:
-#         if n == x:
-#             counter += 1
-#             if counter != 0:
-#                 print(x+" : "+str(counter))
+myString("This is a string".lower())

@@ -7,6 +7,4 @@ def numberToTime(number):
     realTimeInMinutes = number - timeInMinutes
     print("The time is {} HOURS {} MINUTES".format(realTimeInNumbers, realTimeInMinutes))
 
-
-
 print(numberToTime(266))
