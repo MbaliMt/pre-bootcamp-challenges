@@ -7,4 +7,4 @@ def twoNumbers(num1, num2):
         return False
 
 
-print(twoNumbers(65, 65))
+print(twoNumbers(6, 65))

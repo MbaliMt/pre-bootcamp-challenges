@@ -5,6 +5,6 @@ def numberToTime(number):
     realTimeInNumbers = math.trunc(timeInHours)
     timeInMinutes = realTimeInNumbers * 60
     realTimeInMinutes = number - timeInMinutes
-    print("The time is {} HOURS {} MINUTES".format(realTimeInNumbers, realTimeInMinutes))
+    print("The time is {} hours,{} minutes".format(realTimeInNumbers, realTimeInMinutes))
 
-print(numberToTime(266))
+print(numberToTime(71))

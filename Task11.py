@@ -7,4 +7,4 @@ def compareStrings(word1, word2):
             if char1 == char2:
                 print(char1, end=" ")
 
-compareStrings("mother", "come")
+compareStrings("mother".lower(), "mOon".lower())

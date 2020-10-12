@@ -1,16 +1,23 @@
+from collections import OrderedDict
 
-count1 = 0
-count2 = 0
+list1 = []
+list2 = []
+
+sum = 0
 for x in range(3, 1000, 3):
-    print(x)
-    count1 = count1 + x
+    list1.append(x)
+
 for j in range(5, 1000, 5):
-    print(j)
-    if (x != j):
-        count2 = count2 +j
+    list2.append(j)
 
-print(count1 + count2)
+list1.extend(list2)
+nonDuplicateList = list(OrderedDict.fromkeys(list1))
+list1.sort()
+for z in nonDuplicateList:
+    sum += z
 
+# print(nonDuplicateList)
+print("The sum of all the multiples of 3 or 5 below 1000 is:", sum)
 
 
 
